@@ -1,11 +1,7 @@
 .App {
-  text-align: center;
+  padding: 6px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
 .App-header {
   background-color: #282c34;
@@ -29,4 +25,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-header {
+  text-align: center;
+}
+
+.list-form input {
+  width: 99%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.todos-list {
+  width: 99%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.todo-item {
+  text-align: left;
+  height: 30px;
+  word-break: break-all;
+}
+.todo-item span {
+  position: relative;
 }
